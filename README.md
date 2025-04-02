@@ -48,7 +48,7 @@ This program, [`process-run.py`](process-run.py), allows you to see how process 
    
    <details>
    <summary>Answer</summary>
-   Coloque aqui su respuerta
+   The first one prevents to use both instructions an I/O call at the same time, and the second one allows it. This is a matter that can be evidenciated in the execution time comparing both processes because the first one took 11 time units and the second one took 7 time units.
    </details>
    <br>
 
