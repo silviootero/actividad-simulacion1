@@ -25,9 +25,9 @@ This program, [`process-run.py`](process-run.py), allows you to see how process 
    <details>
    <summary>Answer</summary>
    The percentage of CPU utilization is 100%, because it is executing two processes with 5 instructions and 100% of possibilities of executing them.
-   ![Question 1](https://r-charts.com/es/miscelanea/procesamiento-imagenes-magick_files/figure-html/paquete-magick.png)
    </details>
    <br>
+![Question 1](https://r-charts.com/es/miscelanea/procesamiento-imagenes-magick_files/figure-html/paquete-magick.png)
 
 2. Now run with these flags: `./process-run.py -l 4:100,1:0`. These flags specify one process with 4 instructions (all to use the CPU), and one that simply issues an I/O and waits for it to be done. How long does it take to complete both processes? Use `-c` and `-p` to find out if you were right. 
    
