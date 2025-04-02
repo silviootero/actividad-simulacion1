@@ -63,25 +63,25 @@ This program, [`process-run.py`](process-run.py), allows you to see how process 
    This one allows to use both instructions an I/O call at the same time. This is a matter that can be evidenced in the execution time comparing this process with the previous one because that one took 11 time units and this one took 7 time units.
    </details>
    <br>
-![Question 5](https://drive.google.com/uc?export=view&id=1YnH3guODguTy8rK87Yo6XsMMS50tRmS9)
+![Question 5](https://drive.google.com/uc?export=view&id=1skoM0uMW7ZApZ67pijTGa_nnLbfNk8dV)
 
 6. One other important behavior is what to do when an I/O completes. With `-I IO RUN LATER`, when an I/O completes, the process that issued it is not necessarily run right away; rather, whatever was running at the time keeps running. What happens when you run this combination of processes? (`./process-run.py -l 3:0,5:100,5:100,5:100 -S SWITCH ON IO -c -p -I IO RUN LATER`) Are system resources being effectively utilized?
    
    <details>
    <summary>Answer</summary>
-   When we run this combination of processes at the beginning the I/O is executed and the first CPU process is ready and waiting, then the first CPU process begins to execute while the I/O is blocked, then when it is done the next CPU process begins his execution, and then it carry on the execution of all the CPU processes while the O/I awaits. Whe all of then are done, the rest of I/O calls are executed. The conclusion is that the system resources aren't being efetively utilized, because when the I/O is blocked, the CPU is not being used.
+   When we run this combination of processes at the beginning the I/O is executed and the first CPU process is ready and waiting, then the first CPU process begins to execute while the I/O is blocked, then when it is done the next CPU process begins his execution, and then it carry on the execution of all the CPU processes while the O/I awaits. When all of then are done, the rest of I/O calls are executed. The conclusion is that the system resources aren't being efetively utilized, because when the I/O is blocked, the CPU is not being used.
    </details>
    <br>
-![Question 6](https://drive.google.com/uc?export=view&id=1YnH3guODguTy8rK87Yo6XsMMS50tRmS9)
+![Question 6](https://drive.google.com/uc?export=view&id=1LXuWZ7qsRbaYbSr7PjjTcFacDE-IGeXy)
 
 7. Now run the same processes, but with `-I IO RUN IMMEDIATE` set, which immediately runs the process that issued the I/O. How does this behavior differ? Why might running a process that just completed an I/O again be a good idea?
    
    <details>
    <summary>Answer</summary>
-   Coloque aqui su respuerta
+   When we used -I IO RUN IMMEDIATE, all the processes that issued the I/O are executed when they can, which leads to better ussage of the resources. It can be seen in the times, with the same command line this way it only took 21 time units while when it waits it took 31 time units.
    </details>
    <br>
-![Question 7](https://drive.google.com/uc?export=view&id=1YnH3guODguTy8rK87Yo6XsMMS50tRmS9)
+![Question 7](https://drive.google.com/uc?export=view&id=1ufWjSggt3CBGijV2ylswkAZW4GKvPYRE)
 
 ### Criterios de evaluación
 - [x] Despligue de los resultados y analisis claro de los resultados respecto a lo visto en la teoria.
