@@ -69,7 +69,7 @@ This program, [`process-run.py`](process-run.py), allows you to see how process 
    
    <details>
    <summary>Answer</summary>
-   Coloque aqui su respuerta
+   When we run this combination of processes at the beginning the I/O is executed and the first CPU process is ready and waiting, then the first CPU process begins to execute while the I/O is blocked, then when it is done the next CPU process begins his execution, and then it carry on the execution of all the CPU processes while the O/I awaits. Whe all of then are done, the rest of I/O calls are executed. The conclusion is that the system resources aren't being efetively utilized, because when the I/O is blocked, the CPU is not being used.
    </details>
    <br>
 ![Question 6](https://drive.google.com/uc?export=view&id=1YnH3guODguTy8rK87Yo6XsMMS50tRmS9)
