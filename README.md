@@ -40,7 +40,7 @@ This program, [`process-run.py`](process-run.py), allows you to see how process 
    
    <details>
    <summary>Answer</summary>
-   Coloque aqui su respuerta
+   Now the instructions can use the CPU while the I/O is blocked. Switching the order optimizes the execution.
    </details>
    <br>
 
