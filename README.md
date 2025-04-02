@@ -2,8 +2,8 @@
 
 |Integrante|correo|usuario github|
 |---|---|---|
-|Nombre completo integrante 1|correo integrante 1|gihub user integrante 1|
-|Nombre completo integrante 2|correo integrante 2|gihub user integrante 2|
+|Silvio Jose Otero Guzman|silvio.otero@udea.edu.co|silviootero|
+|Gaia Ramirez Hincapie|gaia.ramirez@udea.edu.co|gaiamilenium99|
 
 ## Instrucciones
 
