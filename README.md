@@ -51,7 +51,7 @@ This program, [`process-run.py`](process-run.py), allows you to see how process 
    
    <details>
    <summary>Answer</summary>
-   The first one prevents to use both instructions an I/O call at the same time, and the second one allows it. This is a matter that can be evidenced in the execution time comparing both processes because the first one took 11 time units and the second one took 7 time units.
+   This command prevents the system from switching to another process while one is doing I/O.
    </details>
    <br>
 ![Question 4](https://drive.google.com/uc?export=view&id=1skoM0uMW7ZApZ67pijTGa_nnLbfNk8dV)
@@ -60,7 +60,7 @@ This program, [`process-run.py`](process-run.py), allows you to see how process 
    
    <details>
    <summary>Answer</summary>
-   Coloque aqui su respuerta
+   This one allows to use both instructions an I/O call at the same time. This is a matter that can be evidenced in the execution time comparing this process with the previous one because that one took 11 time units and this one took 7 time units.
    </details>
    <br>
 ![Question 5](https://drive.google.com/uc?export=view&id=1YnH3guODguTy8rK87Yo6XsMMS50tRmS9)
