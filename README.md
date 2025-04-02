@@ -25,6 +25,7 @@ This program, [`process-run.py`](process-run.py), allows you to see how process 
    <details>
    <summary>Answer</summary>
    The percentage of CPU utilization is 100%, because it is executing two processes with 5 instructions and 100% of possibilities of executing them.
+   ![Question 1](https://drive.google.com/file/d/1YnH3guODguTy8rK87Yo6XsMMS50tRmS9/view?usp=drive_link)
    </details>
    <br>
 
